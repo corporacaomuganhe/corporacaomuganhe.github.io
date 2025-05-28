@@ -1,28 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <title>Corporação Muganhe</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #222;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            color: #009688;
-        }
-        p {
-            font-size: 18px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corporação Muganhe</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #f8f9fa, #e6ecf0);
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #1a1a1a;
+    }
+
+    header {
+      background-color: #003c4d;
+      padding: 40px 20px 20px;
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+    }
+
+    h1 {
+      color: #ffffff;
+      margin: 20px 0 10px;
+    }
+
+    h2 {
+      color: #cccccc;
+      margin-bottom: 30px;
+      font-weight: 400;
+    }
+
+    main {
+      padding: 40px 20px;
+    }
+
+    .intro {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+    }
+
+    .buttons a {
+      background-color: #006f8a;
+      color: #fff;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background-color: #004d5e;
+    }
+
+    footer {
+      background-color: #002f3d;
+      color: #ccc;
+      padding: 30px 20px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    @media (max-width: 600px) {
+      .buttons {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>Bem-vindo à Corporação Muganhe</h1>
-    <p>Marketing. Canais. Consultoria. Inovação.</p>
-    <p>Estamos a construir soluções com propósito e impacto.</p>
-    <p>Contacte-nos: corporacaomuganhe@gmail.com</p>
+
+  <header>
+    <img src="logo.png" alt="Logo da Corporação Muganhe" class="logo">
+    <h1>Corporação Muganhe</h1>
+    <h2>Influência. Alcance. Conexão.</h2>
+  </header>
+
+  <main>
+    <p class="intro">Trabalhamos com canais digitais, marketing, publicidade e consultoria para marcas que querem crescer com impacto.</p>
+
+    <div class="buttons">
+      <a href="#">YouTube</a>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">TikTok</a>
+      <a href="#">Outros Canais</a>
+    </div>
+
+    <p><em>(Aqui você pode adicionar imagens promocionais ou vídeos futuramente.)</em></p>
+  </main>
+
+  <footer>
+    <p>© 2025 Corporação Muganhe</p>
+    <p>contato: corporacaomuganhe@outlook.com</p>
+    <p>Todos os direitos reservados.</p>
+  </footer>
+
 </body>
 </html>
